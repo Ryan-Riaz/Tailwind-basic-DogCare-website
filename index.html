@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tailwind Basic DogCare Services</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- ============> Header <============== -->
+		<header
+			class="bg-indigo-500 text-indigo-200 flex justify-between p-5 text-lg sticky left-0 top-0"
+		>
+			<!-- ============> Header left <============== -->
+			<div class="flex items-center">
+				<a href="#"
+					><img
+						src="./imgs/logo.png"
+						alt="Logo"
+						width="40"
+						class="mr-2"
+				/></a>
+				<ul class="flex">
+					<li class="mr-2">
+						<a class="hover:text-indigo-100 text-xl ml-3" href="#"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a class="hover:text-indigo-100 text-xl ml-3" href="#"
+							>Contact</a
+						>
+					</li>
+				</ul>
+			</div>
+			<!-- ============> Header right <============== -->
+			<div class="flex items-center">
+				<a
+					class="mr-2 bg-orange-500 text-orange-800 p-3 rounded font-medium hover:bg-orange-600 hover:text-orange-200 transition ease-in-out duration-200 shadow-lg"
+					href="#"
+					>Login</a
+				>
+				<a
+					class="bg-yellow-500 text-yellow-800 p-3 rounded font-medium hover:bg-yellow-600 hover:text-yellow-200 transition ease-in-out duration-200 shadow-lg"
+					href="#"
+					>Sign Up</a
+				>
+			</div>
+		</header>
+		<!-- ============> Hero <============== -->
+		<section class="bg-indigo-400 text-indigo-200 px-5 py-10 md:flex">
+			<!-- ============> Hero left <============== -->
+			<div class="lg:px-10 md:w-1/2">
+				<h2 class="lg:text-6xl text-4xl text-white mt-10 mb-5">
+					Welcome to Doggo City!
+				</h2>
+				<p class="text-lg mb-5">There is never a sad day here!</p>
+				<!-- call to actions buttons  -->
+				<div class="flex my-10">
+					<a
+						class="inline-flex bg-gray-700 text-center text-gray-100 hover:bg-orange-600 hover:text-orange-200 px-4 py-3 rounded mr-2 uppercase transition ease-in-out duration-200 font-semi-bold text-lg shadow-lg font-semibold"
+						href="#"
+						>Learn More</a
+					>
+					<a
+						class="inline-flex bg-orange-500 text-orange-800 text-center hover:bg-orange-600 hover:text-orange-200 px-4 py-3 rounded uppercase transition ease-in-out duration-200 font-semi-bold text-lg shadow-lg font-semibold"
+						href="#"
+						>Get Started</a
+					>
+				</div>
+			</div>
+			<!-- ============> Hero right<============== -->
+			<div class="md:w-1/2">
+				<img
+					src="./imgs/doggy (3).jpg"
+					alt="Happiest doggy"
+					class="w-full shadow-2xl"
+				/>
+			</div>
+		</section>
+		<!-- ============> Feature <============== -->
+		<section
+			class="bg-indigo-600 py-10 text-4xl lg:text-6xl text-center text-indigo-100"
+		>
+			Doggies Gallary
+			<div class="flex justify-around flex-wrap py-10">
+				<div class="md:w-1/4 px-5 mb-5 text-center text-indigo-200">
+					<img
+						src="./imgs/doggy (5).jpg"
+						alt="doggy"
+						class="w-full border mb-2 shadow-2xl"
+					/>
+					<p class="text-2xl">Cuddles!</p>
+				</div>
+				<div class="md:w-1/4 px-5 mb-5 text-center text-indigo-200">
+					<img
+						src="./imgs/doggy (6).jpg"
+						alt="doggy"
+						class="w-full border mb-2 shadow-2xl"
+					/>
+					<p class="text-2xl">Smiles!</p>
+				</div>
+				<div class="md:w-1/4 px-5 mb-5 text-center text-indigo-200">
+					<img
+						src="./imgs/doggy (5).jpg"
+						alt="doggy"
+						class="w-full border mb-2 shadow-2xl"
+					/>
+					<p class="text-2xl">Games!</p>
+				</div>
+				<div class="md:w-1/4 px-5 mb-5 text-center text-indigo-200">
+					<img
+						src="./imgs/doggy (3).jpg"
+						alt="doggy"
+						class="w-full border mb-2 shadow-2xl"
+					/>
+					<p class="text-2xl">Swims!</p>
+				</div>
+			</div>
+		</section>
+		<!-- ============> Contact Us <============== -->
+		<div class="md:flex bg-indigo-700 py-10 px-5">
+			<!-- ============> Contact Us  Form <============== -->
+			<div class="sm:w-full md:w-1/2 md:pr-5">
+				<form class="lg:py-8">
+					<label
+						class="inline-block text-indigo-200 mb-2 text-xl"
+						for="name"
+						>Name</label
+					>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Type your name"
+						class="block w-full mb-2 p-3 rounded outline-none text-xl bg-indigo-400 text-white"
+					/>
+					<label
+						class="inline-block text-indigo-200 mb-2 text-xl"
+						for="email"
+						>Email</label
+					>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Type your email"
+						class="block w-full mb-2 p-3 rounded outline-none text-xl bg-indigo-400 text-white"
+					/>
+					<label
+						class="inline-block text-indigo-200 mb-2 text-xl"
+						for="password"
+						>Password</label
+					>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						placeholder="Type your password"
+						class="block w-full mb-2 p-3 rounded outline-none text-xl bg-indigo-400 text-white"
+					/>
+					<label
+						class="inline-block text-indigo-200 mb-2 text-xl"
+						for="message"
+						>Message</label
+					>
+					<textarea
+						name="message"
+						id="massage"
+						placeholder="Type your Message"
+						class="block w-full h-64 mb-5 p-3 rounded outline-none text-xl bg-indigo-400 text-white"
+					></textarea>
+					<a
+						class="block mb-5 bg-orange-500 text-orange-800 text-center hover:bg-orange-600 hover:text-orange-200 px-4 py-3 rounded uppercase transition ease-in-out duration-200 font-semi-bold text-lg shadow-lg font-semibold"
+						href="#"
+						>Submit</a
+					>
+				</form>
+			</div>
+			<!-- ============> Contact Us Map <============== -->
+			<div class="sm:w-full md:w-1/2 md:pl-5">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7312.524184697604!2d90.51350887683023!3d23.594931570568384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b1f2c5b8401d%3A0xf859cbeb71ed9b6c!2sMadanganj%20(Part)%2C%20Bandar!5e0!3m2!1sen!2sbd!4v1599506688664!5m2!1sen!2sbd"
+					class="w-full"
+					height="700"
+					frameborder="0"
+					style="border: 0"
+					allowfullscreen=""
+					aria-hidden="false"
+					tabindex="0"
+				></iframe>
+			</div>
+		</div>
+		<!-- ============> Footer <============== -->
+		<footer class="bg-indigo-800 text-indigo-200 text-2xl">
+			<p class="p-5 text-center">All Rights Reserved &copy;2020</p>
+		</footer>
+	</body>
+</html>

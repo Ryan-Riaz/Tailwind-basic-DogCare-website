@@ -6,4 +6,4 @@
 
 #### Tailwind CSS is just awesome. No customize css is needed!!
 
-To see live this website, [click here!](https://ryan-riaz.github.io/Tailwind-basic-DogCare-website/)
+To see live this website, [click here!](https://ryan-riaz.github.io/Tailwind_CSS-basic-DogCare-website/)
